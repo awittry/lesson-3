@@ -1,40 +1,75 @@
 body{
-	background-color: #DDDDDD;
+	background-color: #D6DBDF;
 	width: 700px;
 	margin: 50px auto 50px auto;
 }
 hr{
-	width: 710px;
-	margin-bottom: 30px;
+	width: 630px;
+	margin: 15px auto 30px auto;
+	background-color: #D6DBDF;
+	color: #D6DBDF;
+}
+.boxed{
+	border: 1px solid #D6DBDF;
+	height: 1700px;
+	width: 650px;
+	background-color: white;
+	padding: 60px 40px 100px 40px;
 }
 div{
-	width: 50px;
-	height: 50px;
-	background-color: #F4EEEE;
-	border-bottom-width: medium;
-	border-bottom-color: #737272;
-	margin: 0 7px 0 7px;
+	width: 45px;
+	height: 45px;
+	background-color: #D6DBDF;
+	border-style: solid;
+	
+	margin: 0 5px 40px 5px;
 	font-size: 20px;
-	padding: 35px 0px 0px 35px;
-	color: #D6D0D0;
+	font-family: "Calibri", Times, sans-serif;
+	padding: 30px 0px 0px 30px;
+	color: #6D6C6C;
 
 	float: left;
 }
 p{
 	clear: both;
 	margin-bottom: 20px;
+	color: black;
+	font-size: 17px;
 }
 h1{
-	font-size: 50px;
-	margin-bottom: 15px;
+	font-size: 65px;
 	font-weight: bold;
+	margin: 0 auto 30px auto;
 }
 h2{
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
-	margin-bottom: 15px;
+	margin: 45px 0 12px -20px;
+	color: black;
 }
 .red{
-	background-color: red;
-	color: #8F0404;
+	background-color: #FE5625;
+	color: #950000;
+	border-width: 0 0 4px 0;
+}
+.gray{
+	border-width: 0 0 4px 0;
+}
+.mark{
+	background: gray;
+	border-color: gray;
+	font-family: monospace;
+}
+.Google{
+	width: 300px;
+	height: 60px;
+	background-color: #FE5625;
+	color: #4B4B4B;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 50px 0 20px 70px;
+	border-radius: 5px;
+}
+.Google:hover{
+	background-color: green;
 }
